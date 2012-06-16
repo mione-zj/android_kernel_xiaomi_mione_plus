@@ -82,3 +82,6 @@ obj-$(CONFIG_TOUCHSCREEN_CYTTSP_I2C_QC)       += cyttsp-i2c-qc.o
 obj-$(CONFIG_TOUCHSCREEN_FT5X0X)       += ft5x0x_ts.o
 obj-$(CONFIG_TOUCHSCREEN_FT5X0X_I2C)   += ft5x0x_ts_i2c.o
 obj-$(CONFIG_TOUCHSCREEN_FT5X0X_SPI)   += ft5x0x_ts_spi.o
+obj-$(CONFIG_TOUCHSCREEN_LGE_COMMON)	+= lge_touch_core.o
+obj-$(CONFIG_TOUCHSCREEN_LGE_SYNAPTICS) += touch_synaptics.o
+obj-$(CONFIG_TOUCHSCREEN_LGE_SYNAPTICS) += touch_synaptics_ds4_fw_upgrade.o
